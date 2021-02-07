@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #F7C545;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+nav a:hover{
+    color: black;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 194px);
+}
+header p{
+    padding: 0 150px
+}
+header img{
+    width: 20vw;
+    align-self: center;
+}
+.sticky__wrapper{
+    height: 600px;
+}
+.sticky__wrapper-cta{
+    position: sticky;
+    top: 50px;
+    text-align: center;
+    padding: 15px 150px;
+    background-color: #2A2A2A;
+    height: 144px;
+}
+.sticky__wrapper-cta p{
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.sticky__wrapper-cta button{
+    padding: 7px 30px;
+    border: #D9AD3F solid 2px;
+    color: #D9AD3F;
+    background-color: transparent;
+}
+.sticky__wrapper-cta button:hover{
+    color: whitesmoke;
+    border: white solid 2px;
+    background-color: #2C3C46;
+}
+.sticky__wrapper-paragraph{
+    background-color: #9E9E9E;
+    display: flex;
+    height: 500px;
+    width: 100vw;
+    padding: 30px;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+.sticky__wrapper-paragraph p{
+    font-size: 10px;
+    width: 30%;
+    height: 15%;
+    padding: 15px;
+    background-color: #787878;
+    padding: 10px;
+}
+.additional__cta{
+    margin: 0 20vw;
+    background-color: white;
+    padding: 20px;
+    z-index: 1;
+}
+.additional__cta button{
+    padding: 7px 30px;
+    border: black solid 2px;
+    
+    color: black;
+    background-color: transparent;
+    text-align: right;
+}
+
+.additional__cta button:hover{
+    border: black transparent 2px;
+    color: whitesmoke;
+    background-color: #2C3C46;
+}
+.separator{
+    height: 30vh;
+}
